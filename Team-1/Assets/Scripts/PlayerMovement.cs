@@ -9,26 +9,23 @@ public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     private Animator anim;
-    private float dirX = 0f;
     private SpriteRenderer sprite;
     [SerializeField] private LayerMask jumbleGround;
     private BoxCollider2D coll;
+    
     public float runSpeed;
     public float jumpPower;
-
-    public Transform wallCheck;
+    public Transform tf;
     public float wallCheckDistance;
+    public float groundCheckDistance;
     public LayerMask wallLayer;
     public int isRight = 1;
-    bool isWall;
     public float wallingSpeed = 0.2f;
     public float walljumppower;
     public bool isWallJump;
     bool isStunned = false;
-    public bool blockInput;
 
     private enum MovementState { idle, running, jumping, falling, walling };
-    MovementState state = MovementState.idle;
 
     // Start is called before the first frame update
     void Start()
@@ -37,24 +34,30 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         coll = GetComponent<BoxCollider2D>();
-        wallLayer = GetComponent<LayerMask>();
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Terrain")
         {
-            isStunned = false;
-            blockInput = true;
+            if(IsGrounded())
+            {
+                isStunned = false;
+            }
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (isCeiling() && collision.gameObject.name == "Terrain")
+        {
+            isStunned = true;
+            rb.AddForce(new Vector2(rb.velocity.x, 0));
+            Debug.Log("Ceiling Stunned!");
+        }
 
         if (collision.gameObject.name == "Box")
         {
             isStunned = true;
-            blockInput = false;
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
             Debug.Log("Box Collided!");
             if (isRight == 1)
@@ -74,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (blockInput)
+        if (!isStunned)
         {
             float dirX = Input.GetAxis("Horizontal");
             if (!isWallJump)
@@ -103,8 +106,6 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-
-
             if (Input.GetButtonDown("Jump") && IsGrounded())
             {
                 rb.velocity = new Vector2(0, jumpPower);
@@ -116,11 +117,15 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumbleGround);
+        return Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, jumbleGround);
     }
     private bool IsWall()
     {
-        return Physics2D.Raycast(wallCheck.position, Vector2.right * isRight, wallCheckDistance, jumbleGround);
+        return Physics2D.Raycast(tf.position, Vector2.right * isRight, wallCheckDistance, jumbleGround);
+    }
+    private bool isCeiling()
+    {
+        return Physics2D.Raycast(transform.position, Vector2.up, groundCheckDistance, jumbleGround);
     }
     void FreezeX()
     {
@@ -174,15 +179,5 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetInteger("state", (int)state);
-    }
-
-    void BlockInput()
-    {
-        blockInput = true;
-    }
-
-    void UnBlockInput()
-    {
-        blockInput = false;
     }
 }
