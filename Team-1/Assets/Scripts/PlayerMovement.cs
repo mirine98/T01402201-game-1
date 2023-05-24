@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private bool IsWall()
     {
-        return Physics2D.Raycast(wallCheck.position, Vector2.right * isRight, wallCheckDistance, wallLayer);
+        return Physics2D.Raycast(wallCheck.position, Vector2.right * isRight, wallCheckDistance, jumbleGround);
     }
     void FreezeX()
     {
