@@ -27,12 +27,6 @@ public class Tetris_Spawner : MonoBehaviour
             SpawnBlock();
             spawnTimer = 0f;
         }
-
-        if (gravityTimer >= gravityInterval)
-        {
-            MoveBlockDown();
-            gravityTimer = 0f;
-        }
     }
 
     private void SpawnBlock()
@@ -44,11 +38,5 @@ public class Tetris_Spawner : MonoBehaviour
         currentBlock = Instantiate(blockPrefab, spawnPosition, Quaternion.identity);
     }
 
-    private void MoveBlockDown()
-    {
-        if (currentBlock == null)
-            return;
 
-        currentBlock.transform.position += Vector3.down;
-    }
 }
