@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (collision.gameObject.name == "Box") {//박스에 충돌하면 스턴상태 적용 및 움직임 튕김
+        if (collision.collider.CompareTag("trap")) {//trap에 충돌하면 스턴상태 적용 및 움직임 변화
             isStunned = true;
             Debug.Log("Box Collided!");
             if (isStunned == true) {
