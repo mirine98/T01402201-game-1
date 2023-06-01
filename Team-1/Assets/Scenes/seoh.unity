@@ -524,7 +524,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   runSpeed: 10
-  jumpPower: 10
+  jumpPower: 15
   tf: {fileID: 460348493}
   wallCheckDistance: 0.25
   groundCheckDistance: 1.1
@@ -533,9 +533,9 @@ MonoBehaviour:
     m_Bits: 128
   isRight: 1
   wallingSpeed: 0.95
-  walljumppower: 10
+  walljumppower: 12
   isWallJump: 0
-  stunnedPower: 10
+  stunnedPower: 15
 --- !u!95 &1159591203
 Animator:
   serializedVersion: 5
@@ -617,7 +617,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
