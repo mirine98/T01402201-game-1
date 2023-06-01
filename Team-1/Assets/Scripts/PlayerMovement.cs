@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
             
             
         } else {
-            float dirX = Input.GetAxis("Horizontal");
+            float dirX = Input.GetAxisRaw("Horizontal");
             if (!isWallJump)
                 rb.velocity = new Vector2(dirX * runSpeed, rb.velocity.y);
 
