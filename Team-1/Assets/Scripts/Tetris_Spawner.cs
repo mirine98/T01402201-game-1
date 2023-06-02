@@ -9,8 +9,8 @@ public class Tetris_Spawner : MonoBehaviour
     public float gravityInterval = 1f;
 
     private float spawnTimer = 0f;
-    private float gravityTimer = 0f;
     private GameObject currentBlock;
+    private bool isActive;
 
     private void Start()
     {
@@ -20,7 +20,6 @@ public class Tetris_Spawner : MonoBehaviour
     private void Update()
     {
         spawnTimer += Time.deltaTime;
-        gravityTimer += Time.deltaTime;
 
         if (spawnTimer >= spawnInterval)
         {
