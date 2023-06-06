@@ -6,7 +6,8 @@ public class Tetris_Spawner : MonoBehaviour
 {
     public GameObject[] tetrisBlockPrefabs;
     public float spawnInterval = 1f;
-    public float gravityInterval = 1f;
+    public   float gravityInterval = 1f;
+    public Transform playerTransform;
 
     private float spawnTimer = 0f;
     private GameObject currentBlock;
@@ -35,6 +36,8 @@ public class Tetris_Spawner : MonoBehaviour
         Vector3 spawnPosition = transform.position;
 
         currentBlock = Instantiate(blockPrefab, spawnPosition, Quaternion.identity);
+        Tetris_Behavior tetris_behavior = currentBlock.GetComponent<Tetris_Behavior>();
+        tetris_behavior.Player = playerTransform;
     }
 
 

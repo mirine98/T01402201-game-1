@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1294373924265458816}
   - component: {fileID: 7818144136497965205}
   - component: {fileID: 3551190424686276860}
-  - component: {fileID: 3708721402897935504}
+  - component: {fileID: -1179291004800953609}
   m_Layer: 6
   m_Name: L_Block
   m_TagString: Untagged
@@ -101,7 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261b4b7a346ff7c4d837be982a145608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   fallInterval: 2
+  RotateInterval: 3
   y_max: 4
   fall_timer: 2
 --- !u!61 &1294373924265458816
@@ -221,7 +223,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!66 &3708721402897935504
+--- !u!66 &-1179291004800953609
 CompositeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,35 +259,9 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1294373924265458816}
-    m_ColliderPaths:
-    - - X: 0
-        Y: 30000000
-      - X: -20000000
-        Y: 30000000
-      - X: -20000000
-        Y: -30000000
-      - X: 0
-        Y: -30000000
-  - m_Collider: {fileID: 7818144136497965205}
-    m_ColliderPaths:
-    - - X: 20000000
-        Y: -10000000
-      - X: 0
-        Y: -10000000
-      - X: 0
-        Y: -30000000
-      - X: 20000000
-        Y: -30000000
+  m_ColliderPaths: []
   m_CompositePaths:
-    m_Paths:
-    - - {x: 1.9999708, y: -3}
-      - {x: 1.9999708, y: -1}
-      - {x: 0, y: -0.9999706}
-      - {x: -0.000029300001, y: 3}
-      - {x: -2, y: 2.999971}
-      - {x: -1.9999708, y: -3}
+    m_Paths: []
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0

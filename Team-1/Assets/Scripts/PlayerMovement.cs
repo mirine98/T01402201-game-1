@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
     }
     private void OnCollisionStay2D(Collision2D collision) {
-        if (collision.gameObject.name == "Terrain") {
+        if (collision.gameObject.tag == "Ground") {
             if (IsGrounded()) {
                 isStunned = false;
             }
@@ -44,66 +44,66 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision) { //충돌관련
 
-        if (collision.gameObject.name == "Terrain") {//천장에 충돌하면 스턴상태 적용 및 움직임 튕김
+        if (collision.gameObject.tag == "Ground") {//천장에 충돌하면 스턴상태 적용 및 움직임 튕김
             if (isCeiling()) {
                 isStunned = true;
                 Debug.Log("Ceiling Stunned!");
-            }
-            if (isStunned == true) {
-                if (isRight == 1) {
-                    FlipPlayer();
-                    rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
-                } else {
-                    FlipPlayer();
-                    rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
-                }
             }
         }
 
         if (collision.collider.CompareTag("trap")) {//trap에 충돌하면 스턴상태 적용 및 움직임 변화
             isStunned = true;
             Debug.Log("Box Collided!");
-            if (isStunned == true) {
-                if (isRight == 1) {
-                    FlipPlayer();
-                    rb.velocity = new Vector2(isRight * stunnedPower, rb.velocity.y);
-                } else {
-                    FlipPlayer();
-                    rb.velocity = new Vector2(isRight * stunnedPower, rb.velocity.y);
-                }
-            }
         }
         Debug.Log("Collision is made:" + collision.gameObject.name);
     }
 
     // Update is called once per frame
     void Update() {
-        if (isStunned) {
-            
-            
-        } else {
+        if (isStunned)
+        {
+            if (isRight == 1)
+            {
+                FlipPlayer();
+                rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
+            }
+            else
+            {
+                FlipPlayer();
+                rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
+
+            }
+        }
+        else
+        {
             float dirX = Input.GetAxisRaw("Horizontal");
             if (!isWallJump)
                 rb.velocity = new Vector2(dirX * runSpeed, rb.velocity.y);
 
-            if (IsWall() && !(IsGrounded())) {
+            if (IsWall() && !(IsGrounded()))
+            {
                 isWallJump = false;
                 rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * wallingSpeed);
-                if (Input.GetButtonDown("Jump")) {
+                if (Input.GetButtonDown("Jump"))
+                {
 
                     CancelInvoke("FreezeX");
                     isWallJump = true;
                     Invoke("FreezeX", 1f);
 
-                    if (isRight == 1) {
+                    if (isRight == 1)
+                    {
                         FlipPlayer();
-                    } else {
+                    }
+                    else
+                    {
                         FlipPlayer();
                     }
                     rb.velocity = new Vector2(isRight * walljumppower, 0.9f * walljumppower);
                 }
             }
-            if (Input.GetButtonDown("Jump") && IsGrounded()) {
+            if (Input.GetButtonDown("Jump") && IsGrounded())
+            {
                 rb.velocity = new Vector2(0, jumpPower);
             }
             UpdateAnimationUpdate(dirX);
