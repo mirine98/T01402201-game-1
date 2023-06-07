@@ -104,7 +104,7 @@ MonoBehaviour:
   Player: {fileID: 0}
   fallInterval: 2
   RotateInterval: 3
-  y_max: 2
+  y_max: -2
   fall_timer: 2
 --- !u!61 &1893153747810693344
 BoxCollider2D:

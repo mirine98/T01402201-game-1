@@ -171,6 +171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 261b4b7a346ff7c4d837be982a145608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   fallInterval: 2
-  y_max: 4
+  RotateInterval: 0
+  y_max: -2
   fall_timer: 2

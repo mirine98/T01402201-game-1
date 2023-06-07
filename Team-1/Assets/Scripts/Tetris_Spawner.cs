@@ -11,7 +11,6 @@ public class Tetris_Spawner : MonoBehaviour
 
     private float spawnTimer = 0f;
     private GameObject currentBlock;
-    private bool isActive;
 
     private void Start()
     {
@@ -31,9 +30,13 @@ public class Tetris_Spawner : MonoBehaviour
 
     private void SpawnBlock()
     {
+        Vector3 spawnPosition = transform.position;
         int randomIndex = Random.Range(0, tetrisBlockPrefabs.Length);
         GameObject blockPrefab = tetrisBlockPrefabs[randomIndex];
-        Vector3 spawnPosition = transform.position;
+        if ((0 < randomIndex) & (randomIndex <= 2))
+        {
+            spawnPosition.y += 1f;
+        }
 
         currentBlock = Instantiate(blockPrefab, spawnPosition, Quaternion.identity);
         Tetris_Behavior tetris_behavior = currentBlock.GetComponent<Tetris_Behavior>();

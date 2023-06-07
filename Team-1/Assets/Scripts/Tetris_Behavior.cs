@@ -45,6 +45,7 @@ public class Tetris_Behavior : MonoBehaviour
 
             if (transform.position.y < y_max)
             {
+                Destroy(gameObject);
                 break;
             }
             yield return new WaitForSeconds(fall_timer); //fall_timer만큼 대기
