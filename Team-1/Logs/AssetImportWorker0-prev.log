@@ -15,9 +15,15 @@ C:/Users/McGra/Documents/GitHub/T01402201-game-1/Team-1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 8457
 Successfully changed project path to: C:/Users/McGra/Documents/GitHub/T01402201-game-1/Team-1
 C:/Users/McGra/Documents/GitHub/T01402201-game-1/Team-1
+=======
+62376
+Successfully changed project path to: C:/Users/Grey/Desktop/T01402201-game-1/Team-1
+C:/Users/Grey/Desktop/T01402201-game-1/Team-1
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +53,19 @@ C:/Users/McGra/Documents/GitHub/T01402201-game-1/Team-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [12608] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 3176431163 [EditorId] 3176431163 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDVB153) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [12608] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 3176431163 [EditorId] 3176431163 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDVB153) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 1124.07 ms, found 4 plugins.
+=======
+Player connection [12888] Host "[IP] 192.168.181.1 [Port] 0 [Flags] 2 [Guid] 3437936100 [EditorId] 3437936100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VQEG7OV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12888] Host "[IP] 192.168.181.1 [Port] 0 [Flags] 2 [Guid] 3437936100 [EditorId] 3437936100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VQEG7OV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 38.58 ms, found 4 plugins.
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.17f1 (54cb9bda89c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,6 +81,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -79,10 +94,25 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3964ms)
 		BeginReloadAssembly (3493ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021534 seconds.
+- Loaded All Assemblies, in  1.557 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.578 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (381ms)
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
 			LoadAssemblies (3490ms)
@@ -102,6 +132,27 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (125ms)
 				ProcessInitializeOnLoadMethodAttributes (56ms)
+=======
+			CreateAndSetChildDomain (3ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (374ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (910ms)
+				TypeCache.Initialize (901ms)
+					TypeCache.ScanAssembly (888ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1995ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (33ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (949ms)
+				ProcessInitializeOnLoadMethodAttributes (936ms)
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,6 +160,7 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image C:\Users\McGra\Documents\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\McGra\Documents\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  5.139 seconds
@@ -537,6 +589,53 @@ Memory consumption went from 128.4 MB to 128.2 MB.
 Total: 2.918100 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.348800 ms  DeleteObjects: 0.201800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  8.630 seconds
+Refreshing native plugins compatible for Editor in 354.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2608ms)
+		BeginReloadAssembly (942ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (210ms)
+		LoadAllAssembliesAndSetupDomain (6000ms)
+			LoadAssemblies (2627ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3149ms)
+				TypeCache.Initialize (3045ms)
+					TypeCache.ScanAssembly (3029ms)
+				ResolveRequiredComponents (16ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2742ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (2293ms)
+				ProcessInitializeOnLoadMethodAttributes (170ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 16.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3949 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (254.5 KB). Loaded Objects now: 4408.
+Memory consumption went from 129.0 MB to 128.8 MB.
+Total: 9.671200 ms (FindLiveObjects: 0.900400 ms CreateObjectMapping: 0.718300 ms MarkObjects: 7.522700 ms  DeleteObjects: 0.527700 ms)
+
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -550,6 +649,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 172.005634 seconds.
   path: ProjectSettings/TagManager.asset
   artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1125,18 +1225,32 @@ Received Import Request.
   path: Assets/Scripts/Tetris_Behavior.cs
   artifactKey: Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Tetris_Behavior.cs using Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3dcde2b36048ebb3eff7b767a7f507') in 0.001201 seconds
+=======
+  Time since last request: 993703.072037 seconds.
+  path: Assets/Scripts/Tetris_Behavior.cs
+  artifactKey: Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tetris_Behavior.cs using Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a24db77dd8c7311ea3eddac78dbc24') in 0.008163 seconds
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 7.452224 seconds.
   path: Assets/Scripts/Scene
   artifactKey: Guid(805c69df47e37ee48bec24f95c451b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Scene using Guid(805c69df47e37ee48bec24f95c451b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65c1201750d62169cacf925a8cb76f8') in 0.000902 seconds
+=======
+  Time since last request: 93.594722 seconds.
+  path: Assets/Scripts/Tetris_Behavior.cs
+  artifactKey: Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tetris_Behavior.cs using Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac2dbae89e4f7e01d805fcb49705f09') in 0.016670 seconds
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 11.554534 seconds.
   path: Assets/Scripts/Scene_Management
   artifactKey: Guid(805c69df47e37ee48bec24f95c451b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1611,6 +1725,60 @@ Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (224.7 KB). Loaded Objects now: 4501.
 Memory consumption went from 128.6 MB to 128.4 MB.
 Total: 3.112800 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.520600 ms  DeleteObjects: 0.218700 ms)
+=======
+  Time since last request: 57.723673 seconds.
+  path: Assets/Scripts/Tetris_Behavior.cs
+  artifactKey: Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tetris_Behavior.cs using Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42436d25cec7bd8319b3f571c02ff46f') in 0.001348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.531 seconds
+Refreshing native plugins compatible for Editor in 17.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (481ms)
+		BeginReloadAssembly (310ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		LoadAllAssembliesAndSetupDomain (2042ms)
+			LoadAssemblies (1039ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1125ms)
+				TypeCache.Initialize (1100ms)
+					TypeCache.ScanAssembly (1086ms)
+				ResolveRequiredComponents (16ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1113ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (737ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 21.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4413.
+Memory consumption went from 127.5 MB to 127.2 MB.
+Total: 18.724100 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 0.658000 ms MarkObjects: 15.944300 ms  DeleteObjects: 1.446800 ms)
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1625,6 +1793,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\McGra\Documents\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -1670,6 +1839,109 @@ Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (224.8 KB). Loaded Objects now: 4505.
 Memory consumption went from 128.6 MB to 128.4 MB.
 Total: 2.984700 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.383300 ms  DeleteObjects: 0.197900 ms)
+=======
+Received Import Request.
+  Time since last request: 98.104898 seconds.
+  path: Assets/Prefabs/tetris_falling/I_Block.prefab
+  artifactKey: Guid(b7753471ba63e2048bfce49d747764d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/I_Block.prefab using Guid(b7753471ba63e2048bfce49d747764d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a71e539eb6f21dcddd778fb9232086') in 1.029521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004508 seconds.
+  path: Assets/Prefabs/tetris_falling/O_Block.prefab
+  artifactKey: Guid(b1d0d28c95b964d42bc819a64dae556c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/O_Block.prefab using Guid(b1d0d28c95b964d42bc819a64dae556c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ac4aad810bbeb2ba31328591162d3b') in 0.060202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006164 seconds.
+  path: Assets/Prefabs/tetris_falling/Z_Block.prefab
+  artifactKey: Guid(1427d274e466c75489e7c47a03675d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/Z_Block.prefab using Guid(1427d274e466c75489e7c47a03675d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0c850d6442a441add99a09c2e593ce') in 0.053521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Prefabs/tetris_falling/L_Block.prefab
+  artifactKey: Guid(028192e692291d0429e6ddc1d3e4310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/L_Block.prefab using Guid(028192e692291d0429e6ddc1d3e4310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873e55ed8ac9b140c0ec81cc17d566a0') in 0.026788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.007266 seconds.
+  path: Assets/Scripts/Tetris_Behavior.cs
+  artifactKey: Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tetris_Behavior.cs using Guid(261b4b7a346ff7c4d837be982a145608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9decb8969784c8033e6bd219fba9b8d3') in 0.001135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Prefabs/tetris_falling/S_Block.prefab
+  artifactKey: Guid(627b2b73eb1055148ae47a2078810119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/S_Block.prefab using Guid(627b2b73eb1055148ae47a2078810119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e0d2e1f93d18201d00e5659c04ce9') in 0.030089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/tetris_falling/J_Block.prefab
+  artifactKey: Guid(9e67f8d33ac875841bf927cac1990000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/J_Block.prefab using Guid(9e67f8d33ac875841bf927cac1990000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad72ea834cfb221ffaad2f99e17ff6e') in 0.051891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.020 seconds
+Refreshing native plugins compatible for Editor in 26.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (671ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (150ms)
+		LoadAllAssembliesAndSetupDomain (2016ms)
+			LoadAssemblies (1205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1199ms)
+				TypeCache.Initialize (1174ms)
+					TypeCache.ScanAssembly (1152ms)
+				ResolveRequiredComponents (24ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (2042ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (499ms)
+				ProcessInitializeOnLoadAttributes (1291ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (77ms)
+Refreshing native plugins compatible for Editor in 22.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4425.
+Memory consumption went from 132.1 MB to 131.9 MB.
+Total: 9.407200 ms (FindLiveObjects: 1.704300 ms CreateObjectMapping: 0.540600 ms MarkObjects: 6.659600 ms  DeleteObjects: 0.498700 ms)
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1685,6 +1957,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 2230.184174 seconds.
   path: Assets/Scenes/Sample.unity
   artifactKey: Guid(c3eefcb0cbcfe164f86263542389d051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -2029,6 +2302,68 @@ Unloading 3946 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (217.5 KB). Loaded Objects now: 4525.
 Memory consumption went from 128.3 MB to 128.1 MB.
 Total: 3.175900 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.124600 ms MarkObjects: 2.552500 ms  DeleteObjects: 0.203200 ms)
+=======
+  Time since last request: 56.346601 seconds.
+  path: Assets/Prefabs/tetris_falling/J_Block.prefab
+  artifactKey: Guid(9e67f8d33ac875841bf927cac1990000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/J_Block.prefab using Guid(9e67f8d33ac875841bf927cac1990000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dfc9ecd0db3b5bf3d5aeab525b0a12') in 0.376049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Prefabs/tetris_falling/Z_Block.prefab
+  artifactKey: Guid(1427d274e466c75489e7c47a03675d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tetris_falling/Z_Block.prefab using Guid(1427d274e466c75489e7c47a03675d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a025d49f01890c22b9acfa32a96ecc') in 0.031481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.794 seconds
+Refreshing native plugins compatible for Editor in 34.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (729ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (192ms)
+		LoadAllAssembliesAndSetupDomain (2625ms)
+			LoadAssemblies (1576ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1288ms)
+				TypeCache.Initialize (1262ms)
+					TypeCache.ScanAssembly (1229ms)
+				ResolveRequiredComponents (18ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1100ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (685ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 13.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4429.
+Memory consumption went from 132.1 MB to 131.9 MB.
+Total: 7.457700 ms (FindLiveObjects: 0.562300 ms CreateObjectMapping: 0.608200 ms MarkObjects: 5.928500 ms  DeleteObjects: 0.357500 ms)
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -2045,6 +2380,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image C:\Users\McGra\Documents\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\McGra\Documents\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.642 seconds
@@ -6116,6 +6452,51 @@ Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (224.8 KB). Loaded Objects now: 4801.
 Memory consumption went from 128.9 MB to 128.7 MB.
 Total: 2.965300 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.132300 ms MarkObjects: 2.343300 ms  DeleteObjects: 0.174100 ms)
+=======
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Grey\Desktop\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.858 seconds
+Refreshing native plugins compatible for Editor in 20.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (585ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (144ms)
+		LoadAllAssembliesAndSetupDomain (1967ms)
+			LoadAssemblies (1272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (981ms)
+				TypeCache.Initialize (961ms)
+					TypeCache.ScanAssembly (944ms)
+				ResolveRequiredComponents (20ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (1150ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (104ms)
+Refreshing native plugins compatible for Editor in 19.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3944 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (224.2 KB). Loaded Objects now: 4433.
+Memory consumption went from 132.4 MB to 132.2 MB.
+Total: 18.741200 ms (FindLiveObjects: 0.580700 ms CreateObjectMapping: 0.850300 ms MarkObjects: 16.918300 ms  DeleteObjects: 0.390500 ms)
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -6129,3 +6510,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981

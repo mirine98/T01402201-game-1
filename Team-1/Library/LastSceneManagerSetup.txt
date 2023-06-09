@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Main.unity
+=======
+- path: Assets/Scenes/kang.unity
+>>>>>>> 1f44678e6fbbf06c05f6d60a6bf56530257fb981
   isLoaded: 1
   isActive: 1
   isSubScene: 0
