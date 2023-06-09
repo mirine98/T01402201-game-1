@@ -11,7 +11,6 @@ public class Tetris_Spawner_Behavior : MonoBehaviour
 
     private Vector2 pos;
     private float dist;
-    private bool isActive = true; // tetris_spawner의 활성화 여부를 나타내는 변수
     private void Start()
     {
         pos = transform.position;
