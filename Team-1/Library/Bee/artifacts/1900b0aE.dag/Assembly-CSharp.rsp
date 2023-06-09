@@ -378,6 +378,7 @@
 "Assets/Scripts/Tetris_box_colider.cs"
 "Assets/Scripts/Tetris_Spawner.cs"
 "Assets/Scripts/Tetris_Spawner_Behavior.cs"
+"Assets/Scripts/viewer_test.cs"
 "Assets/Scripts/WaypointFollower.cs"
 -langversion:9.0
 
