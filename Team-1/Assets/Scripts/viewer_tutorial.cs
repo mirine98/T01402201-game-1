@@ -7,51 +7,28 @@ public class viewer_tutorial : MonoBehaviour
 {
     public GameObject player;
 
+    void Start()
+    {
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -10);
+    }
+
     void Update()
     {
-        float playerY = player.transform.position.y;
-        Debug.Log(playerY);
-
-        if (playerY < 80f)
+        if (player.transform.position.x>transform.position.x+15f)
         {
-            Vector3 newPosition = new Vector3(-4f, 64f, transform.position.z);
-            transform.position = newPosition;
+            transform.position = new Vector3(transform.position.x + 15f, transform.position.y, -10);
         }
-        if (playerY < 64f)
+        if (player.transform.position.x < transform.position.x - 15f)
         {
-            Vector3 newPosition = new Vector3(-4f, 55f, transform.position.z);
-            transform.position = newPosition;
+            transform.position = new Vector3(transform.position.x - 15f, transform.position.y, -10);
         }
-
-        if (playerY < 55f)
+        if (player.transform.position.y > transform.position.y + 10f)
         {
-            Vector3 newPosition = new Vector3(-4f, 43f, transform.position.z);
-            transform.position = newPosition;
+            transform.position = new Vector3(transform.position.x, transform.position.y+10f, -10);
         }
-        if (playerY < 43f)
+        if (player.transform.position.y < transform.position.y - 10f)
         {
-            Vector3 newPosition = new Vector3(-4f, 33f, transform.position.z);
-            transform.position = newPosition;
+            transform.position = new Vector3(transform.position.x, transform.position.y - 10f, -10);
         }
-
-        if (playerY < 33f)
-        {
-            Vector3 newPosition = new Vector3(-4f, 22f, transform.position.z);
-            transform.position = newPosition;
-        }
-
-        if (playerY < 22f)
-        {
-            Vector3 newPosition = new Vector3(-4f, 11.2f, transform.position.z);
-            transform.position = newPosition;
-        }
-
-        if (playerY < 11.2f)
-        {
-            Vector3 newPosition = new Vector3(-4f, 1.5f, transform.position.z);
-            transform.position = newPosition;
-
-        }
-
     }
 }

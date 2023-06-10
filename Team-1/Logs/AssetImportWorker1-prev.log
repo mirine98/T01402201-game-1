@@ -15,7 +15,7 @@ C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-1703
+14551
 Successfully changed project path to: C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
 C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21692] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1875886628 [EditorId] 1875886628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UQQH40A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24468] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2569624731 [EditorId] 2569624731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UQQH40A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21692] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1875886628 [EditorId] 1875886628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UQQH40A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24468] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 2569624731 [EditorId] 2569624731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UQQH40A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 29.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 148.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.17f1 (54cb9bda89c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/unity/2022.2.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/unity/2022.2.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/unity/2022.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/unity/2022.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/unity/2022.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015062 seconds.
-- Loaded All Assemblies, in  0.489 seconds
+Registered in 0.020118 seconds.
+- Loaded All Assemblies, in  1.251 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.395 seconds
+- Finished resetting the current domain, in  0.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (303ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (141ms)
+			LoadAssemblies (210ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (164ms)
-				TypeCache.Initialize (163ms)
-					TypeCache.ScanAssembly (160ms)
+			SetupTypeCache (567ms)
+				TypeCache.Initialize (565ms)
+					TypeCache.ScanAssembly (562ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (313ms)
+			SetupLoadedEditorAssemblies (389ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (11ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnjsrlf\OneDrive\ë¬¸ì„œ\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnjsrlf\OneDrive\ë¬¸ì„œ\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.194 seconds
-Refreshing native plugins compatible for Editor in 14.58 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.651 seconds
+Refreshing native plugins compatible for Editor in 16.84 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.906 seconds
+- Finished resetting the current domain, in  0.975 seconds
 Domain Reload Profiling:
-	ReloadAssembly (350ms)
-		BeginReloadAssembly (213ms)
+	ReloadAssembly (378ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		LoadAllAssembliesAndSetupDomain (831ms)
-			LoadAssemblies (531ms)
+			CreateAndSetChildDomain (31ms)
+		LoadAllAssembliesAndSetupDomain (2261ms)
+			LoadAssemblies (1934ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (392ms)
-				TypeCache.Initialize (357ms)
-					TypeCache.ScanAssembly (350ms)
+			SetupTypeCache (429ms)
+				TypeCache.Initialize (392ms)
+					TypeCache.ScanAssembly (384ms)
 				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (670ms)
+			SetupLoadedEditorAssemblies (690ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 16.19 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (26ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 23.48 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (254.7 KB). Loaded Objects now: 4409.
-Memory consumption went from 129.7 MB to 129.4 MB.
-Total: 4.701200 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.136200 ms MarkObjects: 3.811400 ms  DeleteObjects: 0.343200 ms)
+Unloading 69 unused Assets / (255.0 KB). Loaded Objects now: 4409.
+Memory consumption went from 129.9 MB to 129.6 MB.
+Total: 6.236500 ms (FindLiveObjects: 0.440900 ms CreateObjectMapping: 0.158600 ms MarkObjects: 5.165400 ms  DeleteObjects: 0.469700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,372 +167,316 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1852032.818750 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/L_Block_12.asset
-  artifactKey: Guid(6706e87f4c68a9543b77fa5bc3abfd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/L_Block_12.asset using Guid(6706e87f4c68a9543b77fa5bc3abfd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f69a659aaa8c3e6f7e8c8d13586f9fa') in 0.098110 seconds
+  Time since last request: 1912892.919709 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_1.asset
+  artifactKey: Guid(1fd999e3896116448859a5e084685969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_1.asset using Guid(1fd999e3896116448859a5e084685969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245e3a0fffc75d54a8c2351830c57b5d') in 0.134335 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_4.asset
-  artifactKey: Guid(c82c44830ff353a4a98a743aba15f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_4.asset using Guid(c82c44830ff353a4a98a743aba15f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f221f9e7a7fdfba1bb7d63b9000f286') in 0.016066 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_far_0.asset
+  artifactKey: Guid(0015b6a1bb466f14e87c14d3763f5dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_far_0.asset using Guid(0015b6a1bb466f14e87c14d3763f5dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8db6bef769b59b2d9c739b90ca8fe41') in 0.021107 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_11.asset
-  artifactKey: Guid(64ec7ce866fafc1409dc93dbdb307200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_11.asset using Guid(64ec7ce866fafc1409dc93dbdb307200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0e0a0db0ef5946df57331d618afeb') in 0.019523 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/MapMake/Sprite/Tile/T_Block_far_3.asset
+  artifactKey: Guid(973418bb03da42a49801fe6c44f35be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/T_Block_far_3.asset using Guid(973418bb03da42a49801fe6c44f35be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0126136e945c30994dd3b65bf0a0e934') in 0.018358 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_10.asset
-  artifactKey: Guid(73f1240f41a00674bac68b2f5f2e8847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_10.asset using Guid(73f1240f41a00674bac68b2f5f2e8847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35275a35c10b0e93ed92993dfd97b484') in 0.014424 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_10.asset
+  artifactKey: Guid(b7b15f4afae3cbc448b1bee6f48c63b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_10.asset using Guid(b7b15f4afae3cbc448b1bee6f48c63b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588b96eaa54b2bdaee1b8a065f434c0b') in 0.020592 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_8.asset
-  artifactKey: Guid(93e3655ff065f5b47b86d31c484140b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_8.asset using Guid(93e3655ff065f5b47b86d31c484140b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a850bb771bda4610a7144638fcc9d4b2') in 0.018752 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/MapMake/Sprite/T_Block.png
+  artifactKey: Guid(8bef85de48051f0439b2b1dd5cb31336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/T_Block.png using Guid(8bef85de48051f0439b2b1dd5cb31336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1dc02ee28c4946e0e72ac4b1e0bb40') in 0.061682 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_0.asset
-  artifactKey: Guid(43e57b057fb284c449be6da517949bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_0.asset using Guid(43e57b057fb284c449be6da517949bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0f773bf5fc23d97182391f6ade13cb') in 0.016505 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_8.asset
+  artifactKey: Guid(a169c3ef95c505940968f99cbd1656e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_8.asset using Guid(a169c3ef95c505940968f99cbd1656e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bb529a5f132d7d1b5b766f540616cd') in 0.020806 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_8.asset
-  artifactKey: Guid(8f82dd6999faa6e47a4ac557a3539dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_8.asset using Guid(8f82dd6999faa6e47a4ac557a3539dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0513c2c0c1db83870ae4006eb0494f') in 0.013734 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/MapMake/Sprite/black.png
+  artifactKey: Guid(a89a0b0f789c8bb409d765ce69d65193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/black.png using Guid(a89a0b0f789c8bb409d765ce69d65193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105d621fabb8eb52fed124159c4d4bde') in 0.025122 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_7.asset
-  artifactKey: Guid(303543fb91675ca4a97a1bda7e409d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_7.asset using Guid(303543fb91675ca4a97a1bda7e409d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f9c748ce21ec6666b3052459617240') in 0.016448 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_5.asset
+  artifactKey: Guid(33a11d514a6245f43aa13da2e4de604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_5.asset using Guid(33a11d514a6245f43aa13da2e4de604e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cfed16c503690c564a494f4e11dcd8') in 0.011350 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_4.asset
-  artifactKey: Guid(8a3e9a0826014684bbcf870eb2d4f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_4.asset using Guid(8a3e9a0826014684bbcf870eb2d4f830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b59a785072beafcd1390d600e553371') in 0.012318 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_12.asset
+  artifactKey: Guid(efc5dcaef13d7e14fb1ad9f31a48d8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_12.asset using Guid(efc5dcaef13d7e14fb1ad9f31a48d8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dc1f307827d4374c54a76f03cb9908') in 0.018308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_4.asset
+  artifactKey: Guid(f814b8ab5a65d34469ff79c854b6afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_4.asset using Guid(f814b8ab5a65d34469ff79c854b6afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80957ed51fff7ffbb437525185d97067') in 0.011663 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_0.asset
-  artifactKey: Guid(b67d26a8dc4db32449f5a6d99f9d5fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_0.asset using Guid(b67d26a8dc4db32449f5a6d99f9d5fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7003ec10ef2b5bdde1a8539b3e94cb') in 0.016551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/O_Block_0.asset
-  artifactKey: Guid(9578e693aabd6c144adb673001b5d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/O_Block_0.asset using Guid(9578e693aabd6c144adb673001b5d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3467fd2a6648c2c9929c2ee06ca4b567') in 0.013485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/O_Block_5.asset
-  artifactKey: Guid(e806510f460b5454b801ac153da3e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/O_Block_5.asset using Guid(e806510f460b5454b801ac153da3e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7988ddff8530ef2269658cd25f614d2') in 0.015488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_13.asset
-  artifactKey: Guid(b2d56cd880fe8bc42bdd348a0260d26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/S_Block_13.asset using Guid(b2d56cd880fe8bc42bdd348a0260d26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae52f9ee93e5545705d7c690e299b738') in 0.015237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_0.asset
-  artifactKey: Guid(81f597b94bcca914985d356e7a06c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_0.asset using Guid(81f597b94bcca914985d356e7a06c381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee22ca1ec3326cafd3de19368766a85a') in 0.014340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_6.asset
-  artifactKey: Guid(8f22c82c7f3764a4eae897eafb99ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_6.asset using Guid(8f22c82c7f3764a4eae897eafb99ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2e2aabb5f1b666c77e7625193095a') in 0.014864 seconds
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_0.asset
+  artifactKey: Guid(2be192ef12b2bdd4abb9a6a11c348557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_0.asset using Guid(2be192ef12b2bdd4abb9a6a11c348557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df271aa3aee413f69138b026cadc2023') in 0.011501 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/O_Block_1.asset
-  artifactKey: Guid(2efd40eb4c684d548a58518113911554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/O_Block_1.asset using Guid(2efd40eb4c684d548a58518113911554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffd8b096986f51ef729a07fa7baf91f') in 0.013836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_1.asset
-  artifactKey: Guid(7b4468501b6786c43b6e7364d95ab466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/Z_Block_1.asset using Guid(7b4468501b6786c43b6e7364d95ab466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea1e638205f2023f18eea69c39cf3c0') in 0.014429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_5.asset
-  artifactKey: Guid(5236888d8b0b18f46a80e79ea5f46834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_5.asset using Guid(5236888d8b0b18f46a80e79ea5f46834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3215ab769a3cde95708743cac32a5c35') in 0.017413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_9.asset
-  artifactKey: Guid(4dee3272acf5e4e4c977b4508052accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tetris_Asset/Tetris/Tetris Palette/T_Block_9.asset using Guid(4dee3272acf5e4e4c977b4508052accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a1d89e361e9c72231181924732a9c') in 0.015224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 38.200982 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@4x.png
-  artifactKey: Guid(c7d31ce121f6d6841b01dbcf3d909854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@4x.png using Guid(c7d31ce121f6d6841b01dbcf3d909854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc593a39056267d8d1d1b72353f1049c') in 0.040865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@2x.png
-  artifactKey: Guid(857187d2d610c234587c8a50803e4307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.TargetHover@2x.png using Guid(857187d2d610c234587c8a50803e4307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d590ce6942d88214df99ffd1d8c0ae') in 0.019886 seconds
+  path: Assets/MapMake/Sprite/wall_1.png
+  artifactKey: Guid(73b411592559f924eb11706e17884377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/wall_1.png using Guid(73b411592559f924eb11706e17884377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3d52cd9b3a43134397883c06ba3e7d') in 0.024345 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateACW.png
-  artifactKey: Guid(53da314bfe3845741ad14976e09ee6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateACW.png using Guid(53da314bfe3845741ad14976e09ee6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32d553a327462d8e330d2c1b3ea7d66') in 0.020486 seconds
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_12.asset
+  artifactKey: Guid(3dbff635596585f4c8714ec0b5409d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_12.asset using Guid(3dbff635596585f4c8714ec0b5409d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537c68fdb2b654bceaa917384abfeb82') in 0.011865 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateCW@2x.png
-  artifactKey: Guid(e41a6ab3ac7354642a9006c03183e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateCW@2x.png using Guid(e41a6ab3ac7354642a9006c03183e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234f5376999dea14f0e928324dd1961e') in 0.022765 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_13.asset
+  artifactKey: Guid(973c55bf8ad166b47bb62031a17b0741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_13.asset using Guid(973c55bf8ad166b47bb62031a17b0741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c431af8895267d93394c639d8fe4de') in 0.014243 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005430 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings.png
-  artifactKey: Guid(1cea3c0d30c40344881603d28240cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings.png using Guid(1cea3c0d30c40344881603d28240cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2054dfb3fba124d26bb664bbc227a642') in 0.019525 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/MapMake/Sprite/Tile/black.asset
+  artifactKey: Guid(be49ce766fcdfd148b2b12d6b49132e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/black.asset using Guid(be49ce766fcdfd148b2b12d6b49132e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672c7a89d1e826181871ec5e06ca48a0') in 0.018997 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006613 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@2x.png
-  artifactKey: Guid(c06100d8ae6a60d44ab25f318a154ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@2x.png using Guid(c06100d8ae6a60d44ab25f318a154ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3024e488081937b3136c8d7d3d1963') in 0.019838 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_far_3.asset
+  artifactKey: Guid(962a36b272bc26b4d98b8e865c7ad0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_far_3.asset using Guid(962a36b272bc26b4d98b8e865c7ad0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238750b2561c67ad385ee1b0c988d7cf') in 0.019483 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006726 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette@4x.png
-  artifactKey: Guid(9c4b584fdcc16e84391e2a1f5235a9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette@4x.png using Guid(9c4b584fdcc16e84391e2a1f5235a9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cfca35ba451841958cd1acc7a15d3d') in 0.020528 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_15.asset
+  artifactKey: Guid(4b55b1dd3508b6d469f7d8dffc7c55e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_15.asset using Guid(4b55b1dd3508b6d469f7d8dffc7c55e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1054c85ebf3a16942245caa4c216b622') in 0.010529 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003529 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone.png
-  artifactKey: Guid(5dfb96fd1c7a1bf4f9f606597de935cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone.png using Guid(5dfb96fd1c7a1bf4f9f606597de935cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7853da5f37034af1f301aa2f1d5a03') in 0.020955 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_3.asset
+  artifactKey: Guid(564a04102792f6147a40a31efa466c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_3.asset using Guid(564a04102792f6147a40a31efa466c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d31d6cad13f277fbe9730a984517a') in 0.011693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_6.asset
+  artifactKey: Guid(6105e6b0d7533b144aa1b7940f1e85ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_6.asset using Guid(6105e6b0d7533b144aa1b7940f1e85ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cc617c881f78f71619a3c94a133903') in 0.011770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_6.asset
+  artifactKey: Guid(5312738400918c84ba5eff0b075956e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_6.asset using Guid(5312738400918c84ba5eff0b075956e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b3d0cc85ec944114a793342d74854c') in 0.010183 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusTilemap@2x.png
-  artifactKey: Guid(1d8efe8a75b351d4d9aa8b28ddf93196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusTilemap@2x.png using Guid(1d8efe8a75b351d4d9aa8b28ddf93196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b226613ee8571ca766a066b62fda655') in 0.022506 seconds
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_9.asset
+  artifactKey: Guid(ba6a79fb44a77cd4b836e108d42ee21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_9.asset using Guid(ba6a79fb44a77cd4b836e108d42ee21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbe2586a2aebdbc30e7bc816e2224df') in 0.017769 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.018309 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid.png
-  artifactKey: Guid(ad72aefbbd03ec744b3cf61cf766d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowGrid.png using Guid(ad72aefbbd03ec744b3cf61cf766d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da168fbbfc5420f3a010e2af6cbe6805') in 0.024125 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/MapMake/Sprite/T_Block_far.png
+  artifactKey: Guid(bcae4d54841050d4aa4923b57e26e109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/T_Block_far.png using Guid(bcae4d54841050d4aa4923b57e26e109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ef2e2f722998ff8c30c4fbcbeafdd8') in 0.046103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PacMan_Asset/tetris_background.JPG
+  artifactKey: Guid(690d39d080940964d9e974d574111724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PacMan_Asset/tetris_background.JPG using Guid(690d39d080940964d9e974d574111724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec8d55f7087e4512b4d25ec5e1673cd') in 0.035006 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003847 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowTilePalette@2x.png
-  artifactKey: Guid(b3f6a0922e3511840813c51882c0907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ShowTilePalette@2x.png using Guid(b3f6a0922e3511840813c51882c0907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d32bc42ff3942f9e54c88788c30591') in 0.020938 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_far_3.asset
+  artifactKey: Guid(1d2a0272749020c46a9d1d94a9fac84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_far_3.asset using Guid(1d2a0272749020c46a9d1d94a9fac84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3746259fe97590ce75e90fc0e125bd29') in 0.021285 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006994 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.TilePalette@4x.png
-  artifactKey: Guid(86408806ba4819c4494d51cb88d34da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.TilePalette@4x.png using Guid(86408806ba4819c4494d51cb88d34da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c1dedf63247a4c740d3b132dc078d3') in 0.020132 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/PacMan_Asset/Arcade - Pac-Man - General Sprites.png
+  artifactKey: Guid(216b8cd313f85a640b9b906300d4e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PacMan_Asset/Arcade - Pac-Man - General Sprites.png using Guid(216b8cd313f85a640b9b906300d4e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bd16f3fc8efab27f72f49c605b9aea') in 0.033876 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005116 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target@4x.png
-  artifactKey: Guid(86f74056ad052aa4b83fe485546f0521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.Target@4x.png using Guid(86f74056ad052aa4b83fe485546f0521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a3f8865357bf274771e2853db72d99') in 0.020475 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_5.asset
+  artifactKey: Guid(cf494fcac10ced3458ac0a0a0ee446e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_5.asset using Guid(cf494fcac10ced3458ac0a0a0ee446e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eedc119280ff258d7f413d5ae24b7fb') in 0.018322 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003417 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.TargetHover@4x.png
-  artifactKey: Guid(9cdb1d83bdac1554287041973d268c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/EditorUI.TargetHover@4x.png using Guid(9cdb1d83bdac1554287041973d268c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f45ac772b7f4ce4b724f5d92199eee') in 0.019353 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_3.asset
+  artifactKey: Guid(b4224e8e3ed59fc4096edddd379f8f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_3.asset using Guid(b4224e8e3ed59fc4096edddd379f8f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c7d00f6c764f50fcfe69adba173d3f') in 0.017703 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003720 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.FlipY.png
-  artifactKey: Guid(2a807ac042c28e546b9d90048ebbc33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Grid.FlipY.png using Guid(2a807ac042c28e546b9d90048ebbc33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5adac4d0f8fc4d2a5695fad8cad9f4') in 0.018645 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/MapMake/Sprite/T_Block_wall.png
+  artifactKey: Guid(f0fd7ab8ce7f9f24c8c31ba324906a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/T_Block_wall.png using Guid(f0fd7ab8ce7f9f24c8c31ba324906a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b198f6039dae766c56b965c9f8fe1') in 0.113841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_2.asset
+  artifactKey: Guid(11dde21ce1fbe8e44a85c32f6c66e263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_2.asset using Guid(11dde21ce1fbe8e44a85c32f6c66e263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba99819f1b0f1589a2faf09851f1c5') in 0.010636 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005573 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Grid.RotateACW@2x.png
-  artifactKey: Guid(51b8cbcbf34a36243a954f42c5d344fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Grid.RotateACW@2x.png using Guid(51b8cbcbf34a36243a954f42c5d344fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bef93a7050d7e9fda42ce23b4fb5d96') in 0.018605 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_8.asset
+  artifactKey: Guid(922230418c8b1694a83d9e759668a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_8.asset using Guid(922230418c8b1694a83d9e759668a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7c2cc685c220e71b7fd6ec64d3154f') in 0.010422 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003477 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/GridSelection.png
-  artifactKey: Guid(a60e09d7c2452be4c824d4eb480c91c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/GridSelection.png using Guid(a60e09d7c2452be4c824d4eb480c91c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8813c7dd6895a2056f0dc38bc372c49c') in 0.020458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.622097 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers@2x.png
-  artifactKey: Guid(f708c0da8a2b5fc4381f7f8d4a322a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ActiveTargetLayers@2x.png using Guid(f708c0da8a2b5fc4381f7f8d4a322a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abad29ba8ebe1af6faba1f3f62ada3f') in 0.019223 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_far_0.asset
+  artifactKey: Guid(844720362d596a344a83ea523ddd3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_far_0.asset using Guid(844720362d596a344a83ea523ddd3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca5e6387f269f7dd83b3495194f0b4d') in 0.018317 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005284 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings@2x.png
-  artifactKey: Guid(47500a6fba22d6849a3f9335aa198ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushSettings@2x.png using Guid(47500a6fba22d6849a3f9335aa198ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9fb1fc1f105696b6e81439a4b15397') in 0.019159 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_1.asset
+  artifactKey: Guid(d87d1b1692d28d94381b310858439132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_1.asset using Guid(d87d1b1692d28d94381b310858439132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44afdaef6cd056862128401c41bb4445') in 0.010429 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004362 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush@2x.png
-  artifactKey: Guid(9182e08d6d8be424a98050562de5b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.DefaultBrush@2x.png using Guid(9182e08d6d8be424a98050562de5b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c183ea3362022ab4d674df83be58bc33') in 0.020824 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_5.asset
+  artifactKey: Guid(81b86a6db5398da479dca38e92d8556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_5.asset using Guid(81b86a6db5398da479dca38e92d8556f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcab2a87951b49e09b6f127b8d8d011') in 0.010271 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002443 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette@2x.png
-  artifactKey: Guid(13c8bd32c985e204eafd19f6360119db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.EditPalette@2x.png using Guid(13c8bd32c985e204eafd19f6360119db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b1d25308498ab979ef52a8fb67d193') in 0.021311 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_11.asset
+  artifactKey: Guid(7347bf1188b8fc14ba976cf4252a2593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_11.asset using Guid(7347bf1188b8fc14ba976cf4252a2593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406d6c52192ad6308f943c6dff72dd60') in 0.011309 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.026500 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png
-  artifactKey: Guid(a1bd3db90f5f7314e822ba2e38f901c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png using Guid(a1bd3db90f5f7314e822ba2e38f901c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4072ba556e8eabaf29a578483d7d4ef') in 0.019544 seconds
+  Time since last request: 0.000070 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_10.asset
+  artifactKey: Guid(75c38783e0bb1474b874cbe5d20ba673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_10.asset using Guid(75c38783e0bb1474b874cbe5d20ba673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ce15bd25f74ca8200331990baa8ee0') in 0.011659 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004204 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png
-  artifactKey: Guid(070c631c5a8d05e41baf0a64b742067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusNone@4x.png using Guid(070c631c5a8d05e41baf0a64b742067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafae20f05e3601ecf52c5ffe8f907a6') in 0.020517 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_9.asset
+  artifactKey: Guid(17a69c86022b8614dab7a149ab087030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_9.asset using Guid(17a69c86022b8614dab7a149ab087030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e79fb6e5eb973560b0e6168b72b1f') in 0.010256 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004075 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@4x.png
-  artifactKey: Guid(7360ac83b6bff7149836a436a4920d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@4x.png using Guid(7360ac83b6bff7149836a436a4920d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a187c6d349909d2a02e5c38550e5df25') in 0.021242 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_2.asset
+  artifactKey: Guid(1f896991dee35c74880c0ed9afbbb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_2.asset using Guid(1f896991dee35c74880c0ed9afbbb153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107594263a87785d1ab285033d05cafe') in 0.009379 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002798 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@4x.png
-  artifactKey: Guid(c54623997d885f6499655af6031a3bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@4x.png using Guid(c54623997d885f6499655af6031a3bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03c4a0db2a78ddf2010127ea5ce48bb') in 0.021929 seconds
+  Time since last request: 0.000059 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_15.asset
+  artifactKey: Guid(5643aea048a13754389b1da1495976b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_15.asset using Guid(5643aea048a13754389b1da1495976b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2281b471c578ecdaf2eaf9388b18e4dc') in 0.011360 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.127423 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette.png
-  artifactKey: Guid(4b6b0d10629b2ea40846b0eed5b74f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette.png using Guid(4b6b0d10629b2ea40846b0eed5b74f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f40ccc282562817dd614f50a0b8204') in 0.018017 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/PacMan_Asset/Pac-Man_Comparable_Sprite_Sheet.png
+  artifactKey: Guid(29a5639d6fb936c438f18ae7afe3c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PacMan_Asset/Pac-Man_Comparable_Sprite_Sheet.png using Guid(29a5639d6fb936c438f18ae7afe3c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac23e2fe21ded7b5f172b2f0b2e45e6') in 0.119518 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.005526 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png
-  artifactKey: Guid(a605ef4315d43d6438e211f589d2df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png using Guid(a605ef4315d43d6438e211f589d2df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e661222e016a0ecfb7c86118609d5a') in 0.019501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 20
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ½º·¹µå Á¾·á ¶Ç´Â ÀÀ¿ë ÇÁ·Î±×·¥ ¿äÃ» ¶§¹®¿¡ I/O ÀÛ¾÷ÀÌ Ãë¼ÒµÇ¾ú½À´Ï´Ù.
 AssetImportWorker is now disconnected from the server
