@@ -57,7 +57,6 @@ public class PlayerMovement : MonoBehaviour
         }
         Debug.Log("Collision is made:" + collision.gameObject.name);
     }
-
     // Update is called once per frame
     void Update() {
         if (isStunned)
