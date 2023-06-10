@@ -377,11 +377,14 @@
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/Scene_Management/NewBehaviourScript.cs"
 "Assets/Scripts/Scene_Management/SceneChangeController.cs"
+"Assets/Scripts/Test_Scripts/Tetris_drop_test.cs"
+"Assets/Scripts/Test_Scripts/Tetris_P.cs"
+"Assets/Scripts/Test_Scripts/Tetris_Vanish.cs"
+"Assets/Scripts/Test_Scripts/viewer_test.cs"
 "Assets/Scripts/Tetris_Behavior.cs"
 "Assets/Scripts/Tetris_box_colider.cs"
 "Assets/Scripts/Tetris_Spawner.cs"
 "Assets/Scripts/Tetris_Spawner_Behavior.cs"
-"Assets/Scripts/viewer_test.cs"
 "Assets/Scripts/WaypointFollower.cs"
 -langversion:9.0
 
