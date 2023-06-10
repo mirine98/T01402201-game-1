@@ -12,7 +12,29 @@ public class viewer_test : MonoBehaviour
         float playerY = player.transform.position.y;
         Debug.Log(playerY);
 
-        if (playerY < 50f)
+        if (playerY < 80f)
+        {
+            Vector3 newPosition = new Vector3(-4f, 64f, transform.position.z);
+            transform.position = newPosition;
+        }
+        if (playerY < 64f)
+        {
+            Vector3 newPosition = new Vector3(-4f, 55f, transform.position.z);
+            transform.position = newPosition;
+        }
+
+        if (playerY < 55f)
+        {
+            Vector3 newPosition = new Vector3(-4f, 43f, transform.position.z);
+            transform.position = newPosition;
+        }
+        if (playerY < 43f)
+        {
+            Vector3 newPosition = new Vector3(-4f, 33f, transform.position.z);
+            transform.position = newPosition;
+        }
+
+        if (playerY < 33f)
         {
             Vector3 newPosition = new Vector3(-4f, 22f, transform.position.z);
             transform.position = newPosition;

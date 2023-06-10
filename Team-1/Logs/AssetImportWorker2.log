@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.17f1 (54cb9bda89c4) revision 5557147'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 8002 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 15943 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.2.17f1\Editor\Unity.exe
+C:\Program Files\unity\2022.2.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/USER/Documents/GitHub/T01402201-game-1/Team-1
+C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57266
-Successfully changed project path to: C:/Users/USER/Documents/GitHub/T01402201-game-1/Team-1
-C:/Users/USER/Documents/GitHub/T01402201-game-1/Team-1
+14551
+Successfully changed project path to: C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
+C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,13 +47,350 @@ C:/Users/USER/Documents/GitHub/T01402201-game-1/Team-1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18228] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 4281612221 [EditorId] 4281612221 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-RQG51CID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13592] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1909170151 [EditorId] 1909170151 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UQQH40A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18228] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 4281612221 [EditorId] 4281612221 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-RQG51CID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13592] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 1909170151 [EditorId] 1909170151 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UQQH40A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 2899.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 147.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.17f1 (54cb9bda89c4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/T01402201-game-1/Team-1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/unity/2022.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tjdnjsrlf/OneDrive/ë¬¸ì„œ/GitHub/T01402201-game-1/Team-1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     7971 MB
+    Driver:   31.0.101.4032
+Initialize mono
+Mono path[0] = 'C:/Program Files/unity/2022.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/unity/2022.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/unity/2022.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/unity/2022.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020071 seconds.
+- Loaded All Assemblies, in  1.250 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (657ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+				TypeCache.Initialize (564ms)
+					TypeCache.ScanAssembly (561ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnjsrlf\OneDrive\ë¬¸ì„œ\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnjsrlf\OneDrive\ë¬¸ì„œ\GitHub\T01402201-game-1\Team-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.646 seconds
+Refreshing native plugins compatible for Editor in 15.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (382ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (2253ms)
+			LoadAssemblies (1933ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+				TypeCache.Initialize (392ms)
+					TypeCache.ScanAssembly (384ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (459ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 23.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (255.0 KB). Loaded Objects now: 4409.
+Memory consumption went from 129.8 MB to 129.5 MB.
+Total: 6.133500 ms (FindLiveObjects: 0.476300 ms CreateObjectMapping: 0.154800 ms MarkObjects: 5.007400 ms  DeleteObjects: 0.493400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1912892.919678 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_7.asset
+  artifactKey: Guid(e425d64ca7f0e1b42b9e2e1302f1c571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_7.asset using Guid(e425d64ca7f0e1b42b9e2e1302f1c571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9d295496279bce06c8f629ee1a7b07') in 0.131657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_4.asset
+  artifactKey: Guid(64c4713372e791e4ab2c8576b6199d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_4.asset using Guid(64c4713372e791e4ab2c8576b6199d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1064674c0d835a4d827f8eedece2a5e') in 0.018851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_14.asset
+  artifactKey: Guid(4e266be3d358e5541a8ea76c49b0f757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_14.asset using Guid(4e266be3d358e5541a8ea76c49b0f757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112b8cf06a1d7b960354f376cf73d20b') in 0.009901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_3.asset
+  artifactKey: Guid(76f3194053ad4864d92f23840abc5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_3.asset using Guid(76f3194053ad4864d92f23840abc5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7a5cb03bb51f2946296a56c0dc67b5') in 0.020760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MapMake/Sprite/I_Block_far.png
+  artifactKey: Guid(2ad8f2fe4cb08d2429769b948458d3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/I_Block_far.png using Guid(2ad8f2fe4cb08d2429769b948458d3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60121008a57fc1a6f70fe23d25bdce74') in 0.077879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_9.asset
+  artifactKey: Guid(05a1412edbd90e443a687ea1684041e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_9.asset using Guid(05a1412edbd90e443a687ea1684041e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b921afaced42e2bc0c7f466f9a39b22e') in 0.009431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_far2_1.asset
+  artifactKey: Guid(c2cedd270cc72c845b58824e3f17f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_far2_1.asset using Guid(c2cedd270cc72c845b58824e3f17f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db7b05fc9018afd4b1b824a78c7b744') in 0.010387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_10.asset
+  artifactKey: Guid(c56084eaa3af1a54587c5bae7ea99fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_10.asset using Guid(c56084eaa3af1a54587c5bae7ea99fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252bd7cb6b04a73707f6b17757016f66') in 0.019246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_6.asset
+  artifactKey: Guid(df1fe68b9635dbd48b2efeee23a18332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_6.asset using Guid(df1fe68b9635dbd48b2efeee23a18332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93673d035f4d7f0c5b71500024e99f69') in 0.020107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_1.asset
+  artifactKey: Guid(432097ac4612b014683fcae3e42f7e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_1.asset using Guid(432097ac4612b014683fcae3e42f7e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505e42214157c4fe617e49af4a6900da') in 0.018761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_10.asset
+  artifactKey: Guid(a56b4a602cc5fc34889b3370f15f332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_10.asset using Guid(a56b4a602cc5fc34889b3370f15f332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1e42fc27fb4327db85166e3db573f3') in 0.012256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MapMake/Sprite/S_Block.png
+  artifactKey: Guid(69e4a693bd4db644e8f809f3047ccba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/S_Block.png using Guid(69e4a693bd4db644e8f809f3047ccba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af6bf524d68d34ae648b4859d3ae729') in 0.028586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MapMake/Sprite/Z_Block.png
+  artifactKey: Guid(ecb00102c1927f0469a297395495d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Z_Block.png using Guid(ecb00102c1927f0469a297395495d34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e85e64968d0509e42ff021f9a1f76f') in 0.030829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_1.asset
+  artifactKey: Guid(789db0606f7c8bb40a311e5341efe8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_1.asset using Guid(789db0606f7c8bb40a311e5341efe8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6936e6bf54363efa1e2ed22d3f291d67') in 0.010687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_wall_6.asset
+  artifactKey: Guid(05a18487367ada548a2351430fd77b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_wall_6.asset using Guid(05a18487367ada548a2351430fd77b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5a2b0f20266886d0113ebb88e4e33e') in 0.019664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MapMake/Sprite/Tile/T_Block_wall_0.asset
+  artifactKey: Guid(5ec23009d4a40744198213a98d255bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/T_Block_wall_0.asset using Guid(5ec23009d4a40744198213a98d255bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a08bd241d87233af2b07f7df4ba9f4') in 0.010602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MapMake/Sprite/Tile/S_Block_far_1.asset
+  artifactKey: Guid(4aad16575bbd2ca44a098ffc0dfed83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/S_Block_far_1.asset using Guid(4aad16575bbd2ca44a098ffc0dfed83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a99c984e78a67e3227f010aa6ead693') in 0.019786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_0.asset
+  artifactKey: Guid(da836d9921ac95540a1df15085c5dd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_0.asset using Guid(da836d9921ac95540a1df15085c5dd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa2cfaced1bace9139fa546c431071e') in 0.017903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MapMake/Sprite/I_Block_far2.png
+  artifactKey: Guid(b5602c2ef78aa104cbdad902acc9cadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/I_Block_far2.png using Guid(b5602c2ef78aa104cbdad902acc9cadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c8da71bace0fdb3b8db5f4e172d799') in 0.040206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_2.asset
+  artifactKey: Guid(321688e5359c82b4f8aeee9731761219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_2.asset using Guid(321688e5359c82b4f8aeee9731761219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c309b0d935be55037446331b784e46') in 0.015862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MapMake/Sprite/Tile/L_Block_wall_10.asset
+  artifactKey: Guid(96484a75a770b294bbf786beeed946e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/L_Block_wall_10.asset using Guid(96484a75a770b294bbf786beeed946e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed19132791b0315f54f55a65944bdaac') in 0.020843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MapMake/Sprite/Tile/O_Block_wall_12.asset
+  artifactKey: Guid(301b8d42b3c35584e9b714d91476e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/O_Block_wall_12.asset using Guid(301b8d42b3c35584e9b714d91476e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca493e6bc2766511d938045d046898d4') in 0.018566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MapMake/Sprite/S_Block_far.png
+  artifactKey: Guid(c8f2e096fa4be144bb97cc1e86e24a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/S_Block_far.png using Guid(c8f2e096fa4be144bb97cc1e86e24a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c83f8b1c694cdf8804248c34763e2a') in 0.050056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MapMake/Sprite/Kang_Test.prefab
+  artifactKey: Guid(4063366eac75b5f4b92419b6e2b44a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Kang_Test.prefab using Guid(4063366eac75b5f4b92419b6e2b44a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7bf51bd5c13727da9a86e2a8c375c8') in 0.252163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 253
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MapMake/Sprite/Tile/J_Block_wall_7.asset
+  artifactKey: Guid(4a5da368499ff8d429e812d39f610165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/J_Block_wall_7.asset using Guid(4a5da368499ff8d429e812d39f610165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1b9d48d8cdb2aeb777e0bad2901d13') in 0.011171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MapMake/Sprite/S_Block_wall.png
+  artifactKey: Guid(a1a5bec865639c24ca38945a5584cddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/S_Block_wall.png using Guid(a1a5bec865639c24ca38945a5584cddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a0a316e2b5d1c140111127b3002673') in 0.109483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_wall_4.asset
+  artifactKey: Guid(898ba48290e921c4092b52a34314d6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_wall_4.asset using Guid(898ba48290e921c4092b52a34314d6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c782325af1329f754f0a29d953ed0b92') in 0.009689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MapMake/Sprite/Tile/I_Block_far2_3.asset
+  artifactKey: Guid(91d1009b58f657945834e63f5c9f80c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMake/Sprite/Tile/I_Block_far2_3.asset using Guid(91d1009b58f657945834e63f5c9f80c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5689e3fa379d1f3d75e85b3a25b8b44d') in 0.020328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ½º·¹µå Á¾·á ¶Ç´Â ÀÀ¿ë ÇÁ·Î±×·¥ ¿äÃ» ¶§¹®¿¡ I/O ÀÛ¾÷ÀÌ Ãë¼ÒµÇ¾ú½À´Ï´Ù.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
