@@ -10,6 +10,10 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timer;
     private float initialTime = 10.3f;
     private float curTime;
+    [SerializeField]
+    private GameObject ghostPrefab;
+
+    public GameObject gt;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +36,9 @@ public class Timer : MonoBehaviour
             curTime -= Time.deltaTime;
             if (curTime <= 0)
             {
-                curTime = 0;
+                Instantiate(ghostPrefab, gt.transform.position, Quaternion.identity); // Ghost °´Ã¼ »ý¼º
+                curTime = 10.3f;
+
             }
         }
 

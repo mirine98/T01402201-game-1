@@ -57,6 +57,23 @@ public class PlayerMovement : MonoBehaviour {
             getCoin = true;
             collision.gameObject.SetActive(false);
         }
+        if (collision.gameObject.tag == "trap")
+        {//trap에 충돌하면 스턴상태 적용 및 움직임 변화
+            isStunned = true;
+            hitsound.Play();
+            Destroy(collision.gameObject);
+            Debug.Log("Box Collided!");
+            if (isRight == 1)
+            {
+                FlipPlayer();
+                rb.velocity = new Vector2(isRight*-1 * stunnedPower, -1f * stunnedPower);
+            }
+            else
+            {
+                FlipPlayer();
+                rb.velocity = new Vector2(isRight*-1 * stunnedPower, -1f * stunnedPower);
+            }
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision) { //충돌관련
 
@@ -73,6 +90,7 @@ public class PlayerMovement : MonoBehaviour {
             hitsound.Play();
             Debug.Log("Box Collided!");
         }
+
         if (isStunned) {
             if (isRight == 1) {
                 FlipPlayer();
