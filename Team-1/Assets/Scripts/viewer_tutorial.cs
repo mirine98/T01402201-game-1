@@ -16,19 +16,19 @@ public class viewer_tutorial : MonoBehaviour
     {
         if (player.transform.position.x > transform.position.x + 15f)
         {
-            transform.position = new Vector3(transform.position.x + 15f, transform.position.y, -10);
+            transform.position = new Vector3(transform.position.x + 20f, transform.position.y, -10);
         }
         if (player.transform.position.x < transform.position.x - 15f)
         {
-            transform.position = new Vector3(transform.position.x - 15f, transform.position.y, -10);
+            transform.position = new Vector3(transform.position.x - 20f, transform.position.y, -10);
         }
-        if (player.transform.position.y > transform.position.y + 10f)
+        if (player.transform.position.y > transform.position.y + 8f)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 10f, -10);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 15f, -10);
         }
-        if (player.transform.position.y < transform.position.y - 10f)
+        if (player.transform.position.y < transform.position.y - 8f)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 10f, -10);
+            transform.position = new Vector3(transform.position.x, transform.position.y - 15f, -10);
         }
     }
 }

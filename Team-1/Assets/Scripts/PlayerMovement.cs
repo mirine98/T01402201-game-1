@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour {
     public bool isWallJump;
     bool isStunned = false;
     private float stunnedPower = 9f;
+
+    [SerializeField] private AudioSource jumpsound;
+    [SerializeField] private AudioSource hitsound;
     private enum MovementState { idle, running, jumping, falling, walling };
 
     // Start is called before the first frame update
@@ -54,6 +57,7 @@ public class PlayerMovement : MonoBehaviour {
             Debug.Log("Box Collided!");
         }
         if (isStunned) {
+            hitsound.Play();
             if (isRight == 1) {
                 FlipPlayer();
                 rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
@@ -78,7 +82,7 @@ public class PlayerMovement : MonoBehaviour {
                 isWallJump = false;
                 rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * wallingSpeed);
                 if (Input.GetButtonDown("Jump")) {
-
+                    jumpsound.Play();
                     CancelInvoke("FreezeX");
                     isWallJump = true;
                     Invoke("FreezeX", 1f);
@@ -92,6 +96,7 @@ public class PlayerMovement : MonoBehaviour {
                 }
             }
             if (Input.GetButtonDown("Jump") && IsGrounded()) {
+                jumpsound.Play();
                 rb.velocity = new Vector2(0, jumpPower);
             }
             UpdateAnimationUpdate(dirX);
