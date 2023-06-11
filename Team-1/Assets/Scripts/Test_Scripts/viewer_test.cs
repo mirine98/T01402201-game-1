@@ -40,15 +40,27 @@ public class viewer_test : MonoBehaviour
                 Vector3 newPosition = new Vector3(-4f, 22f, transform.position.z);
                 transform.position = newPosition;
             }
+
         }
         else if (playerY < 42f)
         {
-
+                
             if (playerX < 0)
             {
                 Vector3 newPosition = new Vector3(-12f, 31.5f, transform.position.z);
                 transform.position = newPosition;
             }
+            else if (playerX < 15)
+            {
+                Vector3 newPosition = new Vector3(-4f, 31.5f, transform.position.z);
+                transform.position = newPosition;
+            }
+            else if (playerX < 40)
+            {
+                Vector3 newPosition = new Vector3(8f, 40f, transform.position.z);
+                transform.position = newPosition;
+            }
+
         }
         else if (playerY < 50f)
         {
@@ -58,24 +70,34 @@ public class viewer_test : MonoBehaviour
                 Vector3 newPosition = new Vector3(-12f, 42f, transform.position.z);
                 transform.position = newPosition;
             }
-            else if (playerX < 30)
+            else if (playerX < 15)
             {
                 Vector3 newPosition = new Vector3(-4f, 42f, transform.position.z);
+                transform.position = newPosition;
+            }
+            else if (playerX < 40)
+            {
+                Vector3 newPosition = new Vector3(8f, 52f, transform.position.z);
                 transform.position = newPosition;
             }
         }
         else if (playerY < 64f)
         {
 
-            if (playerX < 0)
+            if (playerX < -11)
             {
                 Vector3 newPosition = new Vector3(-12f, 48f, transform.position.z);
                 transform.position = newPosition;
             }
 
-            else if (playerX < 30)
+            else if (playerX < 15)
             {
-                Vector3 newPosition = new Vector3(-4f, 48f, transform.position.z);
+                Vector3 newPosition = new Vector3(0f, 56f, transform.position.z);
+                transform.position = newPosition;
+            }
+            else if (playerX < 40)
+            {
+                Vector3 newPosition = new Vector3(8f, 56f, transform.position.z);
                 transform.position = newPosition;
             }
 
