@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3311681098179800997}
   - component: {fileID: 756029698829153679}
-  - component: {fileID: 7222618636587263530}
   - component: {fileID: 1294373924265458816}
   - component: {fileID: 7818144136497965205}
   - component: {fileID: 3551190424686276860}
   - component: {fileID: -1179291004800953609}
   - component: {fileID: 1433626361069334522}
+  - component: {fileID: 3347488072829221710}
   m_Layer: 6
   m_Name: L_Block
   m_TagString: Ground
@@ -36,7 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &756029698829153679
 SpriteRenderer:
@@ -90,23 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7222618636587263530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382151576914410490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 261b4b7a346ff7c4d837be982a145608, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  fallInterval: 2
-  RotateInterval: 3
-  y_max: -2
-  fall_timer: 2
 --- !u!61 &1294373924265458816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -260,9 +243,35 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1294373924265458816}
+    m_ColliderPaths:
+    - - X: 0
+        Y: 30000000
+      - X: -20000000
+        Y: 30000000
+      - X: -20000000
+        Y: -30000000
+      - X: 0
+        Y: -30000000
+  - m_Collider: {fileID: 7818144136497965205}
+    m_ColliderPaths:
+    - - X: 20000000
+        Y: -10000000
+      - X: 0
+        Y: -10000000
+      - X: 0
+        Y: -30000000
+      - X: 20000000
+        Y: -30000000
   m_CompositePaths:
-    m_Paths: []
+    m_Paths:
+    - - {x: 1.9999708, y: -3}
+      - {x: 1.9999708, y: -1}
+      - {x: 0, y: -0.9999706}
+      - {x: -0.000029300001, y: 3}
+      - {x: -2, y: 2.999971}
+      - {x: -1.9999708, y: -3}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -286,3 +295,20 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &3347488072829221710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382151576914410490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8d31e04253a6e40b392352547aa4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  fallInterval: 2
+  RotateInterval: 2
+  y_max: 0
+  fall_timer: 2

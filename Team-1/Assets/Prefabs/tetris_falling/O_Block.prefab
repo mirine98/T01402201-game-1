@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8885254441316364775}
   - component: {fileID: 3630506562844022105}
-  - component: {fileID: 5947632305324640897}
   - component: {fileID: 6212503796035184421}
   - component: {fileID: 3845432438629899892}
   - component: {fileID: 66703155131799908}
   - component: {fileID: 5905926949014150074}
+  - component: {fileID: 8532572364758795575}
   m_Layer: 6
   m_Name: O_Block
   m_TagString: Ground
@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3630506562844022105
 SpriteRenderer:
@@ -89,23 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5947632305324640897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859338909211944739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 261b4b7a346ff7c4d837be982a145608, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 0}
-  fallInterval: 2
-  RotateInterval: 0
-  y_max: -2
-  fall_timer: 2
 --- !u!61 &6212503796035184421
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,3 +223,20 @@ CompositeCollider2D:
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
   m_CompositeGameObject: {fileID: 1859338909211944739}
+--- !u!114 &8532572364758795575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859338909211944739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8d31e04253a6e40b392352547aa4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  fallInterval: 2
+  RotateInterval: 2
+  y_max: 0
+  fall_timer: 2

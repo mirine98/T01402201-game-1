@@ -6,6 +6,10 @@ using UnityEngine;
 public class viewer_tutorial : MonoBehaviour
 {
     public GameObject player;
+    [SerializeField] private float x_maximum = 15f;
+    [SerializeField] private float y_maximum = 8f;
+    [SerializeField] private float x_movement = 20f;
+    [SerializeField] private float y_movement = 15f;
 
     void Start()
     {
@@ -14,21 +18,21 @@ public class viewer_tutorial : MonoBehaviour
 
     void Update()
     {
-        if (player.transform.position.x > transform.position.x + 15f)
+        if (player.transform.position.x > transform.position.x + x_maximum)
         {
-            transform.position = new Vector3(transform.position.x + 20f, transform.position.y, -10);
+            transform.position = new Vector3(transform.position.x + x_movement, transform.position.y, -10);
         }
-        if (player.transform.position.x < transform.position.x - 15f)
+        if (player.transform.position.x < transform.position.x - x_maximum)
         {
-            transform.position = new Vector3(transform.position.x - 20f, transform.position.y, -10);
+            transform.position = new Vector3(transform.position.x - x_movement, transform.position.y, -10);
         }
-        if (player.transform.position.y > transform.position.y + 8f)
+        if (player.transform.position.y > transform.position.y + y_maximum)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 15f, -10);
+            transform.position = new Vector3(transform.position.x, transform.position.y + y_movement, -10);
         }
-        if (player.transform.position.y < transform.position.y - 8f)
+        if (player.transform.position.y < transform.position.y - y_maximum)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 15f, -10);
+            transform.position = new Vector3(transform.position.x, transform.position.y - y_movement, -10);
         }
     }
 }
