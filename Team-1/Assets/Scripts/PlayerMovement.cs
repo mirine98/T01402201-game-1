@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour {
 
     [SerializeField] private AudioSource jumpsound;
     [SerializeField] private AudioSource hitsound;
+    [SerializeField] private AudioSource hitbgm;
     private enum MovementState { idle, running, jumping, falling, walling };
 
     // Start is called before the first frame update
@@ -43,6 +44,22 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
     }
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "trap") {
+            isStunned = true;
+            hitsound.Play();
+            if (!hitbgm.isPlaying) {
+                hitbgm.Play();
+            }
+            if (isRight == 1) {
+                FlipPlayer();
+                rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
+            } else {
+                FlipPlayer();
+                rb.velocity = new Vector2(isRight * stunnedPower, -1f * stunnedPower);
+            }
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision) { //충돌관련
 
         if (collision.gameObject.tag == "Ground") {//천장에 충돌하면 스턴상태 적용 및 움직임 튕김
@@ -54,9 +71,13 @@ public class PlayerMovement : MonoBehaviour {
 
         if (collision.collider.CompareTag("trap")) {//trap에 충돌하면 스턴상태 적용 및 움직임 변화
             isStunned = true;
+
             Debug.Log("Box Collided!");
         }
         if (isStunned) {
+            if (!hitbgm.isPlaying) {
+                hitbgm.Play();
+            }
             hitsound.Play();
             if (isRight == 1) {
                 FlipPlayer();
@@ -76,6 +97,7 @@ public class PlayerMovement : MonoBehaviour {
             if (!isWallJump)
                 rb.velocity = new Vector2(dirX * runSpeed, rb.velocity.y);
             if (IsGrounded()) {
+                hitbgm.Stop();
                 isWallJump = false;
             }
             if (IsWall() && !(IsGrounded())) {
