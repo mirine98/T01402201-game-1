@@ -7,28 +7,35 @@ public class NumCoin : MonoBehaviour
 {
     private int maxCoinCount;
     private int currentcoinCount;
-
     public int MaxCoinCount => maxCoinCount;
     public int CurrentCoinCount => currentcoinCount;
+    private GameObject finalCoin;
 
     //private GameObject PanelStageClear;
-    private bool getAllCoins = false;
+    public bool getAllCoins = false;
+    public bool allBasicCoins = false;
 
     // Start is called before the first frame update
-    public void Awake()
+    public void Start()
     {
         Time.timeScale = 1.0f;
         //PanelStageClear.SetActive(false);
-
         GameObject[] coins = GameObject.FindGameObjectsWithTag("Coin");
-        maxCoinCount = coins.Length;
+        GameObject[] finalcoins = GameObject.FindGameObjectsWithTag("FinalCoin");
+        maxCoinCount = coins.Length + finalcoins.Length;
         currentcoinCount = 0;
+        finalCoin = GameObject.FindGameObjectWithTag("FinalCoin");
+        finalCoin.SetActive(false);
     }
 
     // Update is called once per frame
     public void GetCoin()
     {
         currentcoinCount += 1;
+        if (currentcoinCount == maxCoinCount - 1)
+        {
+            finalCoin.SetActive(true);
+        }
         if (currentcoinCount == maxCoinCount)
         {
             getAllCoins = true;
@@ -36,6 +43,7 @@ public class NumCoin : MonoBehaviour
             //PanelStageClear.SetActive(true);
         }
     }
+
     //¥Ÿ ∏‘¿∏∏È ≥°
     /*private void Update()
     {
